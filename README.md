@@ -2,12 +2,12 @@
 
    Example program to read distances from TOF10120 Laser Range Sensor in Linux.
    If using a PL2303 Serial Port (USB To RS232 TTL PL2303HX Converter link below)
-   connect wires like this:
-   Red->3V
-   Yellow->TDX
-   White->RDX
-   Black->GND 
-   (Blue and Green are not used) 
+   connect wires like this:<br>
+   Red->3V<br>
+   Yellow->TDX<br>
+   White->RDX<br>
+   Black->GND<br>
+   (Blue and Green are not used)<br> 
 
    Compile with: 
    gcc PL2303_TOF10120_serial.c strrep.c -o PL2303_TOF10120_serial
