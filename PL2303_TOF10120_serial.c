@@ -24,7 +24,7 @@
 
 #include <fcntl.h>
 
-//atof bland annet.
+//atof blant annet.
 #include <stdlib.h>
 
 //For string replacement.
