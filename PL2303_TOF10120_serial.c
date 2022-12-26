@@ -104,7 +104,7 @@ int main(int argc, char *argv[])
   if (fd < 0)
   {
           //error_message ("error %d opening %s: %s", errno, portname, strerror (errno));
-          return;
+          return -1;
   }
 
   //B115200, B230400, B9600, B19200, B38400, B57600, B1200, B2400, B4800
@@ -129,7 +129,7 @@ int main(int argc, char *argv[])
   high = 0;
   low = 999999; 
   int avgruns = 0;
-
+  
   while(1) 
   {           
 
@@ -163,4 +163,5 @@ int main(int argc, char *argv[])
  }
  printf("avg %f\n", avg/avgruns); 
 
+ return 0; 
 }
